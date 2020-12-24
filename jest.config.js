@@ -16,4 +16,5 @@ module.exports = {
     '@/tests/(.*)': '<rootDir>/tests/$1',
     '@/(.*)': '<rootDir>/src/$1',
   },
+  preset: '@shelf/jest-mongodb',
 };
