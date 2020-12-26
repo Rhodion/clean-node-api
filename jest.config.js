@@ -17,4 +17,5 @@ module.exports = {
     '@/(.*)': '<rootDir>/src/$1',
   },
   preset: '@shelf/jest-mongodb',
+  watchPathIgnorePatterns: ['globalConfig'],
 };
